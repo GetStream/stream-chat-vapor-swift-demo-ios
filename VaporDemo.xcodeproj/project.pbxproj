@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		230F0AE8281A92270067D1F5 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230F0AE7281A92270067D1F5 /* LoginViewModel.swift */; };
+		23893C0228102B9300AC628C /* VaporDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23893C0128102B9300AC628C /* VaporDemoApp.swift */; };
+		23893C0628102B9400AC628C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23893C0528102B9400AC628C /* Assets.xcassets */; };
+		23893C0928102B9400AC628C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23893C0828102B9400AC628C /* Preview Assets.xcassets */; };
+		23893C11281056B700AC628C /* StreamChatSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 23893C10281056B700AC628C /* StreamChatSwiftUI */; };
+		23893C132810686B00AC628C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23893C122810686B00AC628C /* AppDelegate.swift */; };
+		23893C162816E1ED00AC628C /* Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23893C152816E1ED00AC628C /* Auth.swift */; };
+		23893C182816E21700AC628C /* Auth+Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23893C172816E21700AC628C /* Auth+Keychain.swift */; };
+		23893C1B2816E27200AC628C /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23893C1A2816E27200AC628C /* LoginResponse.swift */; };
+		23893C1D2816E28400AC628C /* UserToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23893C1C2816E28400AC628C /* UserToken.swift */; };
+		23893C202816E2E400AC628C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23893C1F2816E2E400AC628C /* LoginView.swift */; };
+		23893C24281706C400AC628C /* AsyncButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23893C23281706C400AC628C /* AsyncButton.swift */; };
+		23893C272818499F00AC628C /* LoginResultData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23893C262818499F00AC628C /* LoginResultData.swift */; };
+		23893C29281849B600AC628C /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23893C28281849B600AC628C /* Errors.swift */; };
+		23893C2B281849CC00AC628C /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23893C2A281849CC00AC628C /* UserData.swift */; };
+		23893C2E281849F300AC628C /* OAuthSignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23893C2D281849F300AC628C /* OAuthSignInViewModel.swift */; };
+		23893C3028184C3700AC628C /* SignInWithAppleToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23893C2F28184C3700AC628C /* SignInWithAppleToken.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		230F0AE7281A92270067D1F5 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		23893BFE28102B9300AC628C /* VaporDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VaporDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23893C0128102B9300AC628C /* VaporDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaporDemoApp.swift; sourceTree = "<group>"; };
+		23893C0528102B9400AC628C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		23893C0828102B9400AC628C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		23893C122810686B00AC628C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		23893C152816E1ED00AC628C /* Auth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auth.swift; sourceTree = "<group>"; };
+		23893C172816E21700AC628C /* Auth+Keychain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Auth+Keychain.swift"; sourceTree = "<group>"; };
+		23893C1A2816E27200AC628C /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		23893C1C2816E28400AC628C /* UserToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserToken.swift; sourceTree = "<group>"; };
+		23893C1F2816E2E400AC628C /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		23893C23281706C400AC628C /* AsyncButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncButton.swift; sourceTree = "<group>"; };
+		23893C2528183C3A00AC628C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		23893C262818499F00AC628C /* LoginResultData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResultData.swift; sourceTree = "<group>"; };
+		23893C28281849B600AC628C /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		23893C2A281849CC00AC628C /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		23893C2D281849F300AC628C /* OAuthSignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OAuthSignInViewModel.swift; sourceTree = "<group>"; };
+		23893C2F28184C3700AC628C /* SignInWithAppleToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleToken.swift; sourceTree = "<group>"; };
+		23893C312819AAA000AC628C /* VaporDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VaporDemo.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23893BFB28102B9300AC628C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23893C11281056B700AC628C /* StreamChatSwiftUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23893BF528102B9300AC628C = {
+			isa = PBXGroup;
+			children = (
+				23893C0028102B9300AC628C /* VaporDemo */,
+				23893BFF28102B9300AC628C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		23893BFF28102B9300AC628C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23893BFE28102B9300AC628C /* VaporDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23893C0028102B9300AC628C /* VaporDemo */ = {
+			isa = PBXGroup;
+			children = (
+				23893C312819AAA000AC628C /* VaporDemo.entitlements */,
+				23893C2C281849E800AC628C /* ViewModels */,
+				23893C2528183C3A00AC628C /* Info.plist */,
+				23893C1E2816E2D500AC628C /* Views */,
+				23893C192816E25E00AC628C /* Models */,
+				23893C142816E1E200AC628C /* Utilities */,
+				23893C0128102B9300AC628C /* VaporDemoApp.swift */,
+				23893C0528102B9400AC628C /* Assets.xcassets */,
+				23893C0728102B9400AC628C /* Preview Content */,
+				23893C122810686B00AC628C /* AppDelegate.swift */,
+			);
+			path = VaporDemo;
+			sourceTree = "<group>";
+		};
+		23893C0728102B9400AC628C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				23893C0828102B9400AC628C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		23893C142816E1E200AC628C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				23893C152816E1ED00AC628C /* Auth.swift */,
+				23893C172816E21700AC628C /* Auth+Keychain.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		23893C192816E25E00AC628C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				23893C1A2816E27200AC628C /* LoginResponse.swift */,
+				23893C1C2816E28400AC628C /* UserToken.swift */,
+				23893C262818499F00AC628C /* LoginResultData.swift */,
+				23893C28281849B600AC628C /* Errors.swift */,
+				23893C2A281849CC00AC628C /* UserData.swift */,
+				23893C2F28184C3700AC628C /* SignInWithAppleToken.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		23893C1E2816E2D500AC628C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				23893C1F2816E2E400AC628C /* LoginView.swift */,
+				23893C23281706C400AC628C /* AsyncButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		23893C2C281849E800AC628C /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				23893C2D281849F300AC628C /* OAuthSignInViewModel.swift */,
+				230F0AE7281A92270067D1F5 /* LoginViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23893BFD28102B9300AC628C /* VaporDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23893C0C28102B9400AC628C /* Build configuration list for PBXNativeTarget "VaporDemo" */;
+			buildPhases = (
+				23893BFA28102B9300AC628C /* Sources */,
+				23893BFB28102B9300AC628C /* Frameworks */,
+				23893BFC28102B9300AC628C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VaporDemo;
+			packageProductDependencies = (
+				23893C10281056B700AC628C /* StreamChatSwiftUI */,
+			);
+			productName = VaporDemo;
+			productReference = 23893BFE28102B9300AC628C /* VaporDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23893BF628102B9300AC628C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					23893BFD28102B9300AC628C = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 23893BF928102B9300AC628C /* Build configuration list for PBXProject "VaporDemo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 23893BF528102B9300AC628C;
+			packageReferences = (
+				23893C0F281056B700AC628C /* XCRemoteSwiftPackageReference "stream-chat-swiftui" */,
+			);
+			productRefGroup = 23893BFF28102B9300AC628C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23893BFD28102B9300AC628C /* VaporDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23893BFC28102B9300AC628C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23893C0928102B9400AC628C /* Preview Assets.xcassets in Resources */,
+				23893C0628102B9400AC628C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23893BFA28102B9300AC628C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23893C132810686B00AC628C /* AppDelegate.swift in Sources */,
+				23893C182816E21700AC628C /* Auth+Keychain.swift in Sources */,
+				23893C1B2816E27200AC628C /* LoginResponse.swift in Sources */,
+				23893C1D2816E28400AC628C /* UserToken.swift in Sources */,
+				23893C0228102B9300AC628C /* VaporDemoApp.swift in Sources */,
+				23893C24281706C400AC628C /* AsyncButton.swift in Sources */,
+				230F0AE8281A92270067D1F5 /* LoginViewModel.swift in Sources */,
+				23893C2E281849F300AC628C /* OAuthSignInViewModel.swift in Sources */,
+				23893C2B281849CC00AC628C /* UserData.swift in Sources */,
+				23893C272818499F00AC628C /* LoginResultData.swift in Sources */,
+				23893C29281849B600AC628C /* Errors.swift in Sources */,
+				23893C202816E2E400AC628C /* LoginView.swift in Sources */,
+				23893C3028184C3700AC628C /* SignInWithAppleToken.swift in Sources */,
+				23893C162816E1ED00AC628C /* Auth.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		23893C0A28102B9400AC628C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		23893C0B28102B9400AC628C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		23893C0D28102B9400AC628C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = VaporDemo/VaporDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VaporDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = YWLW23LT6G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VaporDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.getstream.swift.vapor-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		23893C0E28102B9400AC628C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = VaporDemo/VaporDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VaporDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = YWLW23LT6G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VaporDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.getstream.swift.vapor-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23893BF928102B9300AC628C /* Build configuration list for PBXProject "VaporDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23893C0A28102B9400AC628C /* Debug */,
+				23893C0B28102B9400AC628C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23893C0C28102B9400AC628C /* Build configuration list for PBXNativeTarget "VaporDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23893C0D28102B9400AC628C /* Debug */,
+				23893C0E28102B9400AC628C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		23893C0F281056B700AC628C /* XCRemoteSwiftPackageReference "stream-chat-swiftui" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/getstream/stream-chat-swiftui";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		23893C10281056B700AC628C /* StreamChatSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 23893C0F281056B700AC628C /* XCRemoteSwiftPackageReference "stream-chat-swiftui" */;
+			productName = StreamChatSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 23893BF628102B9300AC628C /* Project object */;
+}
