@@ -1,3 +1,5 @@
+> **This repository is archived and no longer maintained.** For a current alternative, see [the SwiftUI chat tutorial](https://getstream.io/chat/sdk/ios/tutorial/swiftui/).
+
 <p align="center">
   <img src=".assets/VaporSwift-Github-1280x640px.png"/>
 </p>
